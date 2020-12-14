@@ -1,13 +1,13 @@
 package kz.karyakin.menuservice.service;
 
-import kz.karyakin.menuservice.model.entity.Menu;
 import kz.karyakin.menuservice.model.dto.MealsListDTO;
-import kz.karyakin.menuservice.model.dto.MenuDTO;
-import kz.karyakin.menuservice.model.entity.Meal;
+import kz.karyakin.menuservice.model.entity.Menu;
 import kz.karyakin.menuservice.repository.MealRepository;
 import kz.karyakin.menuservice.repository.MenuRepository;
-import kz.karyakin.menuservice.util.ExceptionUtils;
 import kz.karyakin.menuservice.util.MessageCode;
+import kz.karyakin.menuservice.model.dto.MenuDTO;
+import kz.karyakin.menuservice.model.entity.Meal;
+import kz.karyakin.menuservice.util.ExceptionUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -69,6 +69,7 @@ public class MenuService {
     }
 
     public List<Menu> getMenus(){
+
         return menuRepository.findAll();
     }
 

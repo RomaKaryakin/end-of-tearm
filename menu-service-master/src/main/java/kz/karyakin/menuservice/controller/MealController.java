@@ -1,7 +1,7 @@
 package kz.karyakin.menuservice.controller;
 
-import kz.karyakin.menuservice.model.entity.Meal;
 import kz.karyakin.menuservice.service.MealService;
+import kz.karyakin.menuservice.model.entity.Meal;
 import kz.karyakin.menuservice.repository.MealRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

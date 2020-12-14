@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu List</title>
+</head>
+<body>
+    {{#getMenus}}
+    <div method="get" path="menu/list">
+        {{id}}<br>
+        {{name}}<br>
+        {{description}}<br>
+        {{meals}}<br>
+    </div>
+    {{/getMenus}}
+</body>
+</html>

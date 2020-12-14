@@ -1,8 +1,8 @@
 package kz.karyakin.menuservice.controller;
 
 import kz.karyakin.menuservice.model.dto.MealsListDTO;
-import kz.karyakin.menuservice.model.dto.MenuDTO;
 import kz.karyakin.menuservice.model.entity.Menu;
+import kz.karyakin.menuservice.model.dto.MenuDTO;
 import kz.karyakin.menuservice.service.MenuService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
